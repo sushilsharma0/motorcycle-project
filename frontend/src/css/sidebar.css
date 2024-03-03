@@ -1,0 +1,9 @@
+@media (max-width:400px) {
+    .sidebar {
+        transform: translateX(-256px);
+    }
+
+    .sidebar.hidden {
+        transform: translateX(0);
+    }
+}
